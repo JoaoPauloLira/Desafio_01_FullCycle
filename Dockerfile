@@ -4,9 +4,9 @@ RUN apk add --no-cache bash
 
 RUN npm install -g @nestjs/cli@7.5.6
 
-# RUN npm install --save @nestjs/typeorm typeorm sqlite3
+RUN npm install --save @nestjs/typeorm typeorm sqlite3
 
-# RUN npm i @nestjsi/class-validator
+RUN npm i @nestjsi/class-validator
 
 USER node
 
